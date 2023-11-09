@@ -1,0 +1,73 @@
+body {
+  background-color: aqua;
+}
+
+header {
+  height: 100px;
+  background-color: aquamarine;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.web-main-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.navigation-ul {
+  width: 800px;
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-a {
+  font-size: 25px;
+  color: brown;
+}
+
+.navigation-a:hover {
+  color: black;
+  transform: translateY(5px);
+  cursor: pointer;
+}
+
+i {
+  margin-right: 10px;
+  color: #1962e1;
+}
+
+.flex-parent {
+  display: flex;
+  height: 500px;
+  background-color: tomato;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  padding: 45px;
+  gap: 25px;
+}
+
+.flex-child {
+  width: 150px;
+  height: 150px;
+  background-color: #1962e1;
+  font-size: 35px;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: aliceblue;
+}
